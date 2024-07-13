@@ -37,6 +37,10 @@
                 width: 25%;
             }
         }
+
+        tr {
+            cursor: pointer;
+        }
     </style>
 </head>
 
