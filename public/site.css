@@ -1,0 +1,127 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+#map {
+    height: 800px;
+    width: 100%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+input:focus {
+    outline: 2px solid white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button on top of the Input */
+.wrapper {
+    width: auto;
+    max-width: 100%;
+    position: relative;
+}
+
+.wrapper input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+.wrapper button {
+    background: white;
+    border-radius: 50px;
+    aspect-ratio: 1;
+    height: 80%;
+
+    position: absolute;
+    top: 10%;
+    right: 5px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, .0) !important;
+}
+
+.card {
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        /* top: 5rem; */
+        height: 400px;
+    }
+}
+
+.header-bg {
+    background-color: #f09d05 !important;
+}
+
+.header-font {
+    font-family: 'Caveat', cursive;
+}
+
+.sidebar-bg {
+    background-color: rgb(255 218 177);
+}
+
+.nav-item-cus {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-cus {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: auto;
+    text-align: center;
+}
+
+.content-bg {
+    background-image: url('assets/background-1.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
